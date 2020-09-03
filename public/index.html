@@ -6,19 +6,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="/build/tailwind.css">
 </head>
-<body class="bg-gray-500">
-    <div class="px-8 py-12">
-        <img class="h-10" src="/img/video-game.png" alt="">
-        <img class="mt-6 rounded-lg shadow-2xl" src="/img/product2.png" alt="woman">
-        <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">You can work from anywhere. Take advantage of it.
-            <span class="text-indigo-200">take advantage of it.</span>
-        </h1>
-        <p class="mt-4 text-gray-800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempora eos. Vel, officiis illo facilis quidem quisquam impedit ipsam sunt.
-        </p>
-        <div class="mt-4">
-            <a class="inline-block bg-gray-800 text-white py-3 px-5 rounded-lg uppercase tracking-wider font-semibold text-sm" href="#">Book your escape</a>
+<body class="bg-gray-200">
+    <div class="flex">
+        <div class="bg-gray-100 px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+            <div class="xl:max-w-lg xl:ml-auto">
+                <img class="h-10" src="/img/video-game.png" alt="">
+                <img class="mt-6 rounded-lg shadow-2xl mx-4 sm:mt-8 sm:h-64 mx-auto  sm:object-center lg:hidden" src="/img/product2.png" alt="woman">
+                <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:text-4xl sm-mt-8 xl:">You can work from anywhere.
+                    <br class="hidden lg:inline"><span class="text-indigo-200">take advantage of it.</span>
+                </h1>
+                <p class="mt-4 text-gray-800 sm:text-xl sm:mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, tempora eos. Vel, officiis illo facilis quidem quisquam impedit ipsam sunt.
+                </p>
+                <div class="mt-4 sm:mt-6">
+                    <a class="inline-block bg-gray-800 text-white py-3 px-5 rounded-lg uppercase tracking-wider font-semibold text-sm " href="#">Book your escape</a>
+                </div>
+            </div>
         </div>
+        <div class="hidden lg:block lg:w-1/2 lg:relative bg-gray-200">
+            <img class="absolute inset-0 h-full w-full object-center md:object-cover" src="/img/product2.png" alt="woman">
+        </div>
+
     </div>
+
 </body>
 </html>
